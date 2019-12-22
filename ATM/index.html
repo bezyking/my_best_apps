@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ATM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="head1">ATM</h1>
+    <div class="display">
+      <div class="flex">
+        <div class="deposit"><p>deposit</p></div>
+        <div class="withdraw"><p>WithDraw</p></div>
+        <div class="account"><p>Create An Account</p></div>
+        <div class="balance"><p>Balance</p></div>
+      </div>
+    </div>
+    <div class="account-screen">
+      <div class="display2">
+        <div class="flex2">
+          <h1 class="Proccess">Login</h1>
+          <form class="login">
+            <input type="text" placeholder="UserName" />
+            <input type="password" placeholder="PIN" maxlength="4" />
+          </form>
+          <button class="Back">Back</button>
+          <button class="Next">Next</button>
+        </div>
+      </div>
+    </div>
+    <div class="Login-screen">
+      <div id="Login-display" class="display2">
+        <div class="flex2">
+          <h1 class="Proccess">Create an Account</h1>
+          <form class="login" name="login">
+            <input type="text" placeholder="UserName" />
+            <input type="password" placeholder="PIN" maxlength="4" />
+          </form>
+          <button id="back-login-btn" class="Back">Back</button>
+          <button id="next-login-btn" class="Next">Next</button>
+        </div>
+      </div>
+    </div>
+    <div class="Deposit-screen">
+      <div id="Deposit-display" class="display2">
+        <div class="flex2">
+          <h1 class="Proccess">Deposit</h1>
+          <form class="login" name="login">
+            <input type="text" placeholder="Amount" />
+            <button type="submit">submit</button>
+          </form>
+          <button id="back-Deposit-btn" class="Back">Back</button>
+        </div>
+      </div>
+    </div>
+    <div class="withdraw-screen">
+      <div id="withdraw-display" class="display2">
+        <div class="flex2">
+          <h1 class="Proccess">WithDraw</h1>
+          <form class="login" name="login">
+            <input type="text" placeholder="Amount" />
+            <button type="submit">submit</button>
+          </form>
+          <button id="back-Withdraw-btn" class="Back">Back</button>
+        </div>
+      </div>
+    </div>
+    <div class="balance-screen">
+      <div id="balance-display" class="display2">
+        <div class="flex2">
+          <h1 class="Proccess">Balance</h1>
+          <p id="balance">sdas</p>
+          <button id="back-balance-btn" class="Back">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

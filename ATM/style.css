@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+body {
+    background: linear-gradient(180deg, #3A8580 0%, rgba(62, 45, 89, 0.469219) 41.15%, rgba(113, 98, 156, 0.0929687) 70.31%, rgba(85, 184, 178, 0.109375) 81.25%, rgba(89, 190, 184, 0.62) 100%);
+
+
+
+
+}
+
+.display {
+
+    text-align: center;
+    height: 100vh;
+
+}
+
+.flex {
+    display: grid;
+    background: linear-gradient(180deg, #0C834D 0%, rgba(0, 0, 0, 0.42) 0.01%, rgba(13, 255, 145, 0.53) 100%);
+    border: 20px solid #6F6F6F;
+    flex-direction: column;
+    margin: 10em auto;
+    border-radius: 20px;
+    width: 60%;
+    height: 70%;
+    color: white;
+    grid-template-columns: repeat(2, 22.5em);
+    grid-template-rows: repeat(2, 11.25em);
+    grid-gap: 113px;
+
+}
+
+.deposit {
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 4em;
+    vertical-align: middle;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #05FF8E 100%, rgba(5, 255, 142, 0) 100%);
+}
+
+.account {
+    cursor: pointer;
+    font-size: 2.5rem;
+    line-height: 5em;
+    vertical-align: middle;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #05FF8E 100%, rgba(5, 255, 142, 0) 100%);
+}
+
+.balance {
+
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 4em;
+    vertical-align: middle;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #05FF8E 100%, rgba(5, 255, 142, 0) 100%);
+}
+
+.withdraw {
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 4em;
+    vertical-align: middle;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #05FF8E 100%, rgba(5, 255, 142, 0) 100%);
+}
+
+#head1 {
+
+    text-align: center;
+    color: violet;
+}
+
+/* Login Screen */
+.Proccess {
+    text-align: center;
+}
+
+.display2 {
+    text-align: center;
+}
+
+.flex2 {
+    background: linear-gradient(180deg, #0C834D 0%, rgba(0, 0, 0, 0.42) 0.01%, rgba(13, 255, 145, 0.53) 100%);
+    border: 20px solid #6F6F6F;
+    flex-direction: column;
+    margin: 5em auto;
+    border-radius: 20px;
+    width: 60%;
+    height: 70%;
+    color: white;
+}
+
+.Back {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 22.15%;
+
+
+}
+
+.Next {
+
+    display: flex;
+    margin: -0.1em 48.45rem;
+    flex-direction: column-reverse;
+    width: 7.15%;
+
+}
+
+.login {
+    margin-top: 9rem;
+}
+
+#balance {
+    padding-top: 9.3em;
+}
+
+@keyframes Deposit {}
