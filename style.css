@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333433;
+    font-family: 'Lato' , sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top:5em ;
+    height: 100vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    
+
+}
+.game{
+    width: 40%;
+    margin: 5em auto;
+    
+}
+.d1{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d2{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d3{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d4{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d5{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d6{
+    cursor: pointer;
+    border-bottom: solid 3px #ffffff;
+    
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d7{
+    cursor: pointer;
+
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.d8{
+    cursor: pointer;
+    border-right: solid 3px #ffffff;
+    line-height: 7rem;
+    font-size: 5.5rem;
+ }
+.box{
+    cursor: pointer;
+    
+    line-height: 7rem;
+    font-size: 5.5rem;
+}
+.player-score{
+  
+ padding-right: 30rem;
+}
+.computer-score{
+  transform: translateY(-110%);
+    padding-left: 30rem;
+}
+@media screen and (max-width : 613px ){
+    .player-score{
+  
+        padding-right: 10rem;
+       }
+       .computer-score{
+         transform: translateY(-110%);
+           padding-left: 10rem;
+       }
+       .game{
+        width: 90%;
+        margin: 3em auto;
+        
+    }
+    .box{
+        font-size: 2rem;
+        line-height: 9rem;
+    }
+    body{
+        background: #333433;
+        font-family: 'Lato' , sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-top:2em ;
+        height: 100vh;
+    }
+}
